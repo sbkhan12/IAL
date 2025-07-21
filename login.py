@@ -14,9 +14,9 @@ options.add_argument("--disable-blink-features=AutomationControlled")
 driver = webdriver.Chrome(options=options)
 wait = WebDriverWait(driver, 30)
 
-username = 'sbkhan1257@gmail.com'
-password = 'Asdf1257@'
-target_username = 'sbk_1257'
+username = 'your_username_here'  # Replace with your Instagram username
+password = 'your_password_here'  # Replace with your Instagram password
+target_username = ''
 
 driver.get('https://www.instagram.com/accounts/login/')
 
